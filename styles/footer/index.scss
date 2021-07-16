@@ -1,0 +1,136 @@
+footer {
+  background: #dcdcdc;
+  padding: 40px 0px;
+  .contact-us {
+    h3 {
+      color: #c6834d;
+    }
+    span {
+      color: #333e48;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    p {
+      color: #80868b;
+      font-size: 13px;
+      font-weight: 400;
+
+      .icon {
+        color: #ea1b25;
+        margin-right: 10px;
+      }
+    }
+  }
+  .quick-links {
+    h3 {
+      color: #333e48;
+      font-size: 25px;
+    }
+    li {
+      // margin-left: 1rem;
+      margin-bottom: 1rem;
+      list-style: none;
+      a {
+        color: #80868b;
+        font-size: 14px;
+        font-weight: 600;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      // &::before {
+      //   content: "\2022";
+      //   color: #c6834d;
+      //   font-weight: bold;
+      //   display: inline-block;
+      //   width: 1em;
+      //   margin-left: -1em;
+      // }
+    }
+    .social {
+      li {
+        display: inline-block;
+        list-style: none;
+      }
+      .social-icons {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #c6834d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        .icon {
+          color: #fff;
+          font-size: 25px;
+        }
+      }
+      .facebook {
+        background: #355088;
+      }
+      .twitter {
+        background: #1a91d9;
+      }
+      .linkedin {
+        background: #006ba3;
+      }
+      .instagram {
+        background: #d22e72;
+      }
+    }
+  }
+}
+.footer-bottom {
+  background: #eaeaea;
+  padding: 10px 0px;
+  p {
+    // text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+  }
+}
+.top-social {
+  ul {
+    li {
+      display: inline-block;
+      padding: 0px 10px;
+      // border-right: 1px solid silver;
+      a {
+        color: #000;
+        font-size: 20px;
+
+        @media screen and (max-width: 768px) {
+          display: block;
+        }
+      }
+      .facebook {
+        color: #3b5998;
+      }
+      .twitter {
+        color: #1da1f2;
+      }
+      .linkedin {
+        color: #0077b5;
+      }
+      .instagram {
+        color: #4a9eca;
+      }
+      @media screen and (max-width: 768px) {
+        margin: 2px;
+      }
+    }
+  }
+}
+
+.footer-form {
+  .btn-1 {
+    border-radius: 50px !important;
+    color: #000000;
+    border: 1px solid #222222;
+    background-color: #eaeaea;
+    margin-top: 1rem;
+    padding: 5px 15px;
+  }
+}

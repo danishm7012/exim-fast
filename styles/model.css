@@ -1,0 +1,110 @@
+.customModal {
+  width: 100%;
+  height: 100vh;
+}
+
+.react-responsive-modal-modal {
+  max-width: 100%;
+  width: 100% !important ;
+  margin: 0px !important;
+  /* background: rgba(255, 255, 255, 0.9) !important; */
+}
+.search-model {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.react-responsive-modal-modal {
+  width: 80%;
+  /* background: #222222 !important; */
+}
+
+.mobile-modal {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.card-header {
+  padding: 10px 0px !important;
+  background-color: #f5f5f5 !important;
+  border-bottom: 1px solid #3f3f3f !important;
+}
+.card-header .btn-primary {
+  background-color: #f5f5f5;
+  color: black;
+  border: 0px;
+  padding: 0.3rem 0rem;
+}
+.card-header .btn-primary:hover,
+.card-header .btn-primary:active {
+  background-color: transparent;
+  color: black;
+  border: 0px;
+}
+.card {
+  background-color: #f5f5f5 !important;
+}
+.card a,
+.card a:hover {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 0 !important;
+}
+
+.input-search {
+  border-radius: 50px 0px 0px 50px !important;
+  border: 2px solid #ea1b25 !important;
+  border-right: none !important;
+}
+.select-category {
+  border: 2px solid #ea1b25 !important;
+
+  border-left: none !important;
+}
+
+.search-bar .btn-1 {
+  border-radius: 0px 50px 50px 0px !important;
+  background: #ea1b25;
+  color: #fff;
+  border: 2px solid #ea1b25;
+  /* height: 30px; */
+}
+.search-bar .btn-1 .icons {
+  font-size: 20px !important;
+}
+
+.search-bar .input-search:active,
+.search-bar .input-search:focus {
+  box-shadow: none;
+  border: 2px solid #ea1b25 !important;
+  border-right: none !important;
+}
+.search-bar .select-category:active,
+.search-bar .select-category:focus {
+  box-shadow: none;
+  border: 2px solid #ea1b25 !important;
+  border-left: none !important;
+}
+@media screen and (max-width: 768px) {
+  .search-bar .btn-1 {
+    background: #fff;
+    /* border: none; */
+  }
+
+  .search-bar .btn-1 .icons {
+    color: #3f3f3f;
+  }
+  .input-search {
+    border: none;
+  }
+  .select-category {
+    border: none;
+  }
+}

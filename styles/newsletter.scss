@@ -1,0 +1,29 @@
+.newsletter {
+  background-color: #ea1b25;
+  h3 {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 5px;
+    .icon {
+      font-size: 30px;
+    }
+  }
+  p {
+    color: #fff;
+    padding-top: 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    span {
+      font-weight: 600;
+    }
+  }
+  input {
+    border-radius: 0px !important;
+    border: none;
+  }
+  .btn-1 {
+    border-radius: 0px 50px 50px 0px;
+    background-color: #333e48;
+    color: #fff;
+  }
+}

@@ -18,7 +18,7 @@ const MobileNavbar = () => {
     <div>
       <div className="mobile-navbar">
         <button className="mobile-togal" onClick={onOpenModal}>
-          <AiOutlineAlignLeft />
+          <AiOutlineAlignLeft  />
         </button>
         <Modal
           open={open}

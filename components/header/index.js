@@ -5,7 +5,7 @@ import MainNavbar from './mainNavbar'
 
 const Header = () => {
     return (
-        <div>
+        <div className="main-index">
             <TopHeader/>
             <DeskopSearch/>
             <MainNavbar/>
