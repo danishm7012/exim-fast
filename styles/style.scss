@@ -4,6 +4,8 @@
 @import "./header/index.scss";
 @import "./header/mobileNavbar.scss";
 @import "./newsletter.scss";
+@import "./homepage/home.scss";
+@import "./contact.scss";
 
 * {
   margin: 0;
@@ -22,4 +24,12 @@ li {
 .error {
   color: red;
   font-size: 12px;
+}
+
+
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
 }

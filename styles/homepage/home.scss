@@ -1,0 +1,49 @@
+.title {
+  background: #dd3333;
+  color: #fff;
+  border-radius: 50px 50px 0px 0px;
+  font-size: 30px;
+  font-weight: 600;
+  h2 {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.title-catalouge {
+  h3 {
+    color: #dd3333;
+    font-size: 28px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+.Blog-section {
+  h2 {
+    color: #2f2f2f;
+    font-size: 40px;
+  }
+}
+
+.blog-card {
+  background: #f9f9f9;
+  h2 {
+    font-size: 22px;
+    color: #2f2f2f;
+  }
+  p {
+    color: #2f2f2f;
+    font-size: 15px;
+  }
+  .btn-1 {
+    background: #af3131;
+    color: #fff;
+    &:hover {
+      background: #f23630;
+      color: #fff;
+    }
+  }
+}

@@ -31,28 +31,16 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Belt</Link>
+                          <Link href="">Attire & Uniform</Link>
                         </li>
                         <li>
-                          <Link href="">Bracelets</Link>
+                          <Link href="">Racket</Link>
                         </li>
                         <li>
-                          <Link href=""> Caps </Link>
+                          <Link href=""> Shoes & Footwear </Link>
                         </li>
                         <li>
-                          <Link href=""> Card Holder </Link>
-                        </li>
-                        <li>
-                          <Link href="">Gloves</Link>
-                        </li>
-                        <li>
-                          <Link href="">Shaving Pouches</Link>
-                        </li>
-                        <li>
-                          <Link href="">Wallets</Link>
-                        </li>
-                        <li>
-                          <Link href="">Watch Straps</Link>
+                          <Link href=""> Shuttlecock </Link>
                         </li>
                       </ul>
                     </div>
@@ -67,22 +55,25 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Briefcases</Link>
+                          <Link href="">Backbpard</Link>
                         </li>
                         <li>
-                          <Link href="">Crossbody Bags</Link>
+                          <Link href="">New Socks</Link>
                         </li>
                         <li>
-                          <Link href="">Laptops Bag</Link>
+                          <Link href="">Shoes & Footwear</Link>
                         </li>
                         <li>
-                          <Link href="">Messenger Bags</Link>
+                          <Link href="">Shooting Equipment</Link>
                         </li>
                         <li>
-                          <Link href="">Office Bags</Link>
+                          <Link href="">Uniforms</Link>
                         </li>
                         <li>
-                          <Link href="">Wrist / Clutch Bags</Link>
+                          <Link href="">Balls</Link>
+                        </li>
+                        <li>
+                          <Link href="">Shot Clock</Link>
                         </li>
                       </ul>
                     </div>
@@ -98,28 +89,19 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Baseball Batting Gloves</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Baseball Catching Gloves</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Latest Baseball Balls </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Custom Baseball Caps </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
-                        </li>
-                        <li>
-                          <Link href="">Full Length Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Unisex Baseball Uniform</Link>
                         </li>
                       </ul>
                     </div>
@@ -135,28 +117,46 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Cricket Abdominal Guards</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Cricket Batting Gloves</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Cricket Batting pads </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Customized Cricket Hats </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Customized Cricket Caps</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Cricket Customized Uniform</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">Cricket Practice Clothes</Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Cricket Thigh Guards</Link>
+                        </li>
+                        <li>
+                          <Link href="">Cricket Wooden Stumps</Link>
+                        </li>
+                        <li>
+                          <Link href="">Cricket Bra & Wears</Link>
+                        </li>
+                        <li>
+                          <Link href="">Cricket Wicket Bails</Link>
+                        </li>
+                        <li>
+                          <Link href="">Latest Cricket Kit Bags</Link>
+                        </li>
+                        <li>
+                          <Link href="">Latest Cricket Wrist Bands</Link>
+                        </li>
+                        <li>
+                          <Link href="">Willow Wood Cricket Bats</Link>
                         </li>
                       </ul>
                     </div>
@@ -172,28 +172,40 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Basic Tools & Chain Oil</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Cycling Jersey & Wears</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Cycling Padded Shorts </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href="">Latest Cycling Gloves </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Latest Cycling Shorts</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Padded Shorts</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">Spare Tube</Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Water Bottle & Bottle Cage</Link>
+                        </li>
+                        <li>
+                          <Link href="">Gym & Fitness Gloves</Link>
+                        </li>
+                        <li>
+                          <Link href="">Gym Women Singlets</Link>
+                        </li>
+                        <li>
+                          <Link href="">Gym Wears & Water Bottles</Link>
+                        </li>
+                        <li>
+                          <Link href="">Gym Wears Sports Bra</Link>
                         </li>
                       </ul>
                     </div>
@@ -209,28 +221,45 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Comfortable Gym Shoes</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">
+                            <a>Fitness wears and Gym Bag</a>
+                          </Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href="">
+                            <a>Fitness wears and Gym Vest</a>
+                          </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href="">
+                            <a>Fitness Wears and Stretchable Robes</a>
+                          </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">
+                            <a>Fitness Wears and Technical T-shirts</a>
+                          </Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">
+                            <a>Fitness Wears and Wrist Bands</a>
+                          </Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">
+                            <a>Fitness Wears and Traning Socks</a>
+                          </Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">
+                            <a>Fitness and Gym Compression Cuffs</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="">Fitness Fleece Hoodies</Link>
                         </li>
                       </ul>
                     </div>
@@ -246,28 +275,31 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Football & Soccer Cleats</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Football & Soccer Socks</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Football & Soccer Uniform </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Football Balls </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Football Practice Clothes</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Football Gear Bag & Utensils</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">Football Shin Guard</Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Football Water Bottle</Link>
+                        </li>
+                        <li>
+                          <Link href="">Goal keeper Gloves & Gears</Link>
                         </li>
                       </ul>
                     </div>
@@ -283,28 +315,30 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">American Football Balls</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">
+                            American Football Athletic Supporter
+                          </Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> American Football Clothing </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> American Football Footwear </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">American Football Helmet</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">American Football Mouth Guard</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">American Football Other Armour</Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">American Football Shoulder Pads</Link>
                         </li>
                       </ul>
                     </div>
@@ -320,28 +354,25 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Golf Balls And Eqipment</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Golf Club Head Covers</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Golf Gloves And Geers </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Golf Bags and Equipments </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Golf Shoes and gears</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Golf Socks and Equipments</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Towel and Golf Accessories</Link>
                         </li>
                       </ul>
                     </div>
@@ -357,28 +388,19 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Customized Hockey Mouth Guard</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Hockey Custom Uniform</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Hockey Cleats </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Hockey Shin Guards And Gears </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
-                        </li>
-                        <li>
-                          <Link href="">Full Length Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Hockey Stick and Equipments</Link>
                         </li>
                       </ul>
                     </div>
@@ -394,28 +416,25 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Ice Hockey Gloves</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Ice Hockey Helmet</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Ice hockey Mouth Guard </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Ice Hockey Neck Guard </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Ice Hockey Protective</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Ice Hockey Shin Pads</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Ice Hockey Shoulder Pads</Link>
                         </li>
                       </ul>
                     </div>
@@ -431,28 +450,55 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Motor Racing Extinguishers</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Motorbike cordura Jacket</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Motorbike Kart Gear </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Motorbike Protectors </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Motorbike Race Jackets</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Motorbike Race Suit</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">Motorbike Race Trousers</Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Motorbike Riding Gloves</Link>
+                        </li>
+                        <li>
+                          <Link href="">Motorbike Suits</Link>
+                        </li>
+                        <li>
+                          <Link href="">Racing Gloves</Link>
+                        </li>
+                        <li>
+                          <Link href="">Racing Underwear </Link>
+                        </li>
+                        <li>
+                          <Link href="">Racing Undershirt </Link>
+                        </li>
+                        <li>
+                          <Link href="">Racing Helmets </Link>
+                        </li>
+                        <li>
+                          <Link href="">Racing Shoes </Link>
+                        </li>
+                        <li>
+                          <Link href="">Racing suits </Link>
+                        </li>
+                        <li>
+                          <Link href="">Saddle and Toll Bags </Link>
+                        </li>
+                        <li>
+                          <Link href="">Roll Cages </Link>
                         </li>
                       </ul>
                     </div>
@@ -468,28 +514,22 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Protective Eyewear</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Squash Bags And Gears</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Squash Ball and Equipments </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Squash Kit and Gears </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Squash Rackets and Gears</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Squash Shoes </Link>
                         </li>
                       </ul>
                     </div>
@@ -505,28 +545,28 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Ball Machines </Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Practice Hit Stoke Developer</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Sun Screen </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Tennis Balls And Equipments </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Tennis Grips and Gears</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Tennis Rackets </Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
+                          <Link href="">Tennis Strings and Gears</Link>
                         </li>
                         <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Teniss Wrist Assists Braces</Link>
                         </li>
                       </ul>
                     </div>
@@ -542,28 +582,22 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Rubber, Racket or Paddle </Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Table Tennis Balls and Gears</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Table Tenis Blade </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Table Tennis Clothing </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Table tennis Net and Post</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Table Tennis Table and Gears</Link>
                         </li>
                       </ul>
                     </div>
@@ -579,28 +613,25 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Volley Ball Court and Gears</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Volley Ball Elbow Pads</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Volley Ball Finger Tape </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Volley Ball Jerseys and Gears </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Volley Ball Line Painer</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Volley Ball Net and Equipments</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Volley Ball Shoes and Equipments</Link>
                         </li>
                       </ul>
                     </div>
@@ -616,28 +647,25 @@ const MainNavbar = () => {
                     <div className="drop-down-menu-1 p-4">
                       <ul>
                         <li>
-                          <Link href="">Biker Jackets</Link>
+                          <Link href="">Best Capacity Wrestling Bags</Link>
                         </li>
                         <li>
-                          <Link href="">Blazers and Reefers</Link>
+                          <Link href="">Wrestling Champion Belts</Link>
                         </li>
                         <li>
-                          <Link href=""> Bomber Jackets </Link>
+                          <Link href=""> Wrestling Ear Guard </Link>
                         </li>
                         <li>
-                          <Link href=""> Messenger Bags </Link>
+                          <Link href=""> Wrestling Headgear </Link>
                         </li>
                         <li>
-                          <Link href="">Bomber Jackets</Link>
+                          <Link href="">Wrestling Kick pads</Link>
                         </li>
                         <li>
-                          <Link href="">Full Length Coats</Link>
+                          <Link href="">Wrestling Knee Pads</Link>
                         </li>
                         <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
+                          <Link href="">Wrestling Masks</Link>
                         </li>
                       </ul>
                     </div>
