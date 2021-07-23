@@ -6,6 +6,9 @@
 @import "./newsletter.scss";
 @import "./homepage/home.scss";
 @import "./contact.scss";
+@import "./about.scss";
+@import "./cart.scss";
+@import "./checkout.scss";
 
 * {
   margin: 0;
@@ -26,10 +29,9 @@ li {
   font-size: 12px;
 }
 
-
-a{
+a {
   text-decoration: none;
-  &:hover{
+  &:hover {
     text-decoration: none;
   }
 }

@@ -45,7 +45,12 @@ const ContactForm = () => {
   return (
     <div>
       <div className="contact-form">
-        <h3>Feedback Form</h3>
+        <h3>Leave us a Message</h3>
+        <p>
+          Get in touch with us. Drop a message, complaint or contribution?
+          Please leave your details and we’ll call you back as soon as possible
+          to make an appointment.
+        </p>
         <br />
         <Form onSubmit={formik.handleSubmit}>
           <Form.Group controlId="formBasicEmail">

@@ -3,7 +3,7 @@
 }
 .contact-address {
   h3 {
-    color: #c6834d;
+    color: #EA1B25;
     font-weight: 700;
   }
   strong {
@@ -24,13 +24,13 @@
     font-size: 12px;
   }
   h3 {
-    color: #c6834d;
+    color: #EA1B25;
     font-weight: 700;
   }
   input,
   textarea {
     border: 1px solid silver;
-    border-radius: 2px;
+    border-radius: 50px;
     &:focus,
     &:active {
       border: 1px solid #000;
@@ -43,11 +43,11 @@
     font-weight: 700;
   }
   .btn-1 {
-    background: #c6834d;
+    background: #EA1B25;
     border-radius: 2px;
     border: none;
     &:hover {
-      background: #c6834d;
+      background: #EA1B25;
     }
   }
 }
