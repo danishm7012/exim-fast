@@ -569,6 +569,7 @@ const MainNavbar = () => {
                           <Link href="">Teniss Wrist Assists Braces</Link>
                         </li>
                       </ul>
+                    
                     </div>
                   </li>
 
@@ -600,6 +601,7 @@ const MainNavbar = () => {
                           <Link href="">Table Tennis Table and Gears</Link>
                         </li>
                       </ul>
+                    
                     </div>
                   </li>
 
@@ -634,6 +636,7 @@ const MainNavbar = () => {
                           <Link href="">Volley Ball Shoes and Equipments</Link>
                         </li>
                       </ul>
+                    
                     </div>
                   </li>
 
@@ -668,7 +671,8 @@ const MainNavbar = () => {
                           <Link href="">Wrestling Masks</Link>
                         </li>
                       </ul>
-                    </div>
+
+</div>
                   </li>
                 </ul>
               </div>
@@ -683,108 +687,52 @@ const MainNavbar = () => {
                 <ul>
                   <li className="inner-dropdown w-100">
                     <Link href="">
-                      <a className="d-flex items-link w-100">
-                        Men Leather Accessories
-                        <FaAngleRight className="mt-1" />
-                      </a>
+                      <a className="d-flex items-link w-100">Boxing Pads</a>
                     </Link>
-                    <div className="drop-down-menu-1 p-4">
-                      <ul>
-                        <li>
-                          <Link href="">Belt</Link>
-                        </li>
-                        <li>
-                          <Link href="">Bracelets</Link>
-                        </li>
-                        <li>
-                          <Link href=""> Caps </Link>
-                        </li>
-                        <li>
-                          <Link href=""> Card Holder </Link>
-                        </li>
-                        <li>
-                          <Link href="">Gloves</Link>
-                        </li>
-                        <li>
-                          <Link href="">Shaving Pouches</Link>
-                        </li>
-                        <li>
-                          <Link href="">Wallets</Link>
-                        </li>
-                        <li>
-                          <Link href="">Watch Straps</Link>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
                   <li className="inner-dropdown w-100">
                     <Link href="">
-                      <a className="d-flex items-link w-100">
-                        Men Leather bag
-                        <FaAngleRight className="mt-1" />
-                      </a>
+                      <a className="d-flex items-link w-100">Punch Bags</a>
                     </Link>
-                    <div className="drop-down-menu-1 p-4">
-                      <ul>
-                        <li>
-                          <Link href="">Briefcases</Link>
-                        </li>
-                        <li>
-                          <Link href="">Crossbody Bags</Link>
-                        </li>
-                        <li>
-                          <Link href="">Laptops Bag</Link>
-                        </li>
-                        <li>
-                          <Link href="">Messenger Bags</Link>
-                        </li>
-                        <li>
-                          <Link href="">Office Bags</Link>
-                        </li>
-                        <li>
-                          <Link href="">Wrist / Clutch Bags</Link>
-                        </li>
-                      </ul>
-                    </div>
                   </li>
 
                   <li className="inner-dropdown w-100">
                     <Link href="">
-                      <a className="d-flex items-link w-100">
-                        Men Leather Outwear
-                        <FaAngleRight className="mt-1" />
-                      </a>
+                      <a className="d-flex items-link w-100">Skipping Rope</a>
                     </Link>
-                    <div className="drop-down-menu-1 p-4">
-                      <ul>
-                        <li>
-                          <Link href="">Biker Jackets</Link>
-                        </li>
-                        <li>
-                          <Link href="">Blazers and Reefers</Link>
-                        </li>
-                        <li>
-                          <Link href=""> Bomber Jackets </Link>
-                        </li>
-                        <li>
-                          <Link href=""> Messenger Bags </Link>
-                        </li>
-                        <li>
-                          <Link href="">Bomber Jackets</Link>
-                        </li>
-                        <li>
-                          <Link href="">Full Length Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Parka,Duffel and Trench Coats</Link>
-                        </li>
-                        <li>
-                          <Link href="">Waist Coats / Gilets</Link>
-                        </li>
-                      </ul>
-                    </div>
+                  </li>
+                  <li className="inner-dropdown w-100">
+                    <Link href="">
+                      <a className="d-flex items-link w-100">Bosing Guards</a>
+                    </Link>
+                  </li>
+                  <li className="inner-dropdown w-100">
+                    <Link href="">
+                      <a className="d-flex items-link w-100">Boxing Shoes</a>
+                    </Link>
+                  </li>
+                  <li className="inner-dropdown w-100">
+                    <Link href="">
+                      <a className="d-flex items-link w-100">Ring Robe</a>
+                    </Link>
+                  </li>
+                  <li className="inner-dropdown w-100">
+                    <Link href="">
+                      <a className="d-flex items-link w-100">Boxing Gloves</a>
+                    </Link>
+                  </li>
+                  <li className="inner-dropdown w-100">
+                    <Link href="">
+                      <a className="d-flex items-link w-100">Boxing Wraps</a>
+                    </Link>
+                  </li>
+                  <li className="inner-dropdown w-100">
+                    <Link href="">
+                      <a className="d-flex items-link w-100">Boxing Mitts</a>
+                    </Link>
                   </li>
                 </ul>
+              
               </div>
             </li>
             <li className="menu-items">
@@ -798,8 +746,7 @@ const MainNavbar = () => {
                   <li className="inner-dropdown w-100">
                     <Link href="">
                       <a className="d-flex items-link w-100">
-                        Women Leather Accessories
-                        <FaAngleRight className="mt-1" />
+                        Protective Gear <FaAngleRight className="mt-1" />
                       </a>
                     </Link>
                     <div className="drop-down-menu-1 p-4">
@@ -835,8 +782,7 @@ const MainNavbar = () => {
                   <li className="inner-dropdown w-100">
                     <Link href="">
                       <a className="d-flex items-link w-100">
-                        Women Leather bag
-                        <FaAngleRight className="mt-1" />
+                        MMA Gloves <FaAngleRight className="mt-1" />
                       </a>
                     </Link>
                     <div className="drop-down-menu-1 p-4">
@@ -863,8 +809,7 @@ const MainNavbar = () => {
                   <li className="inner-dropdown w-100">
                     <Link href="">
                       <a className="d-flex items-link w-100">
-                        Women Leather outerwear
-                        <FaAngleRight className="mt-1" />
+                        MMA Clothing <FaAngleRight className="mt-1" />
                       </a>
                     </Link>
                     <div className="drop-down-menu-1 p-4">
@@ -910,7 +855,7 @@ const MainNavbar = () => {
                   <li className="inner-dropdown w-100">
                     <Link href="">
                       <a className="d-flex items-link w-100">
-                        Business Leather Accessories
+                        Outdoor Wears
                         <FaAngleRight className="mt-1" />
                       </a>
                     </Link>
@@ -935,8 +880,7 @@ const MainNavbar = () => {
                   <li className="inner-dropdown w-100">
                     <Link href="">
                       <a className="d-flex items-link w-100">
-                        Business Leather bag
-                        <FaAngleRight className="mt-1" />
+                        Rain Wears <FaAngleRight className="mt-1" />
                       </a>
                     </Link>
                     <div className="drop-down-menu-1 p-4">
@@ -954,7 +898,7 @@ const MainNavbar = () => {
                   <li className="inner-dropdown w-100">
                     <Link href="">
                       <a className="d-flex items-link w-100">
-                        Business Leather holder / cases
+                        Military Fashion
                         <FaAngleRight className="mt-1" />
                       </a>
                     </Link>
@@ -978,6 +922,7 @@ const MainNavbar = () => {
                       </ul>
                     </div>
                   </li>
+                
                 </ul>
               </div>
             </li>

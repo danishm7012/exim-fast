@@ -117,6 +117,8 @@ const BusinessFashion = () => {
           </Accordion.Collapse>
         </Card>
       </Accordion>
+    
+    
     </div>
   );
 };

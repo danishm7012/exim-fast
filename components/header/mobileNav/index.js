@@ -7,6 +7,7 @@ import { Accordion, Card, Button } from "react-bootstrap";
 import MenFashion from "./menFashion";
 import WomenFashion from "./womenFashion";
 import BusinessFashion from "./businessFashion";
+import ProductNav from "./productNav";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 
 const MobileNavbar = () => {
@@ -18,7 +19,7 @@ const MobileNavbar = () => {
     <div>
       <div className="mobile-navbar">
         <button className="mobile-togal" onClick={onOpenModal}>
-          <AiOutlineAlignLeft  />
+          <AiOutlineAlignLeft />
         </button>
         <Modal
           open={open}
@@ -50,7 +51,7 @@ const MobileNavbar = () => {
                     >
                       <Link href="">
                         <a>
-                          Leather Tunning
+                          Products
                           <span className="float-right">
                             <FaAngleDown />
                           </span>
@@ -60,23 +61,7 @@ const MobileNavbar = () => {
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
-                      <ul>
-                        <li>
-                          <Link href="">Anline Leather</Link>
-                        </li>
-                        <li>
-                          <Link href="">Buffalo Hide Leather</Link>
-                        </li>
-                        <li>
-                          <Link href="">Cow Hide Leather</Link>
-                        </li>
-                        <li>
-                          <Link href="">Goat Leather</Link>
-                        </li>
-                        <li>
-                          <Link href="">Sheep Leather</Link>
-                        </li>
-                      </ul>
+                      <ProductNav />
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -89,7 +74,7 @@ const MobileNavbar = () => {
                     >
                       <Link href="">
                         <a>
-                          Men Fashion
+                          Boxing Equipment
                           <span className="float-right">
                             <FaAngleDown />
                           </span>
@@ -99,7 +84,72 @@ const MobileNavbar = () => {
                   </Card.Header>
                   <Accordion.Collapse eventKey="1">
                     <Card.Body>
-                      <MenFashion />
+                      <ul>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Boxing Pads
+                            </a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Punch Bags
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Skipping Rope
+                            </a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Bosing Guards
+                            </a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Boxing Shoes
+                            </a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">Ring Robe</a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Boxing Gloves
+                            </a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Boxing Wraps
+                            </a>
+                          </Link>
+                        </li>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Boxing Mitts
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
+
+                      {/* <MenFashion /> */}
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -113,7 +163,7 @@ const MobileNavbar = () => {
                     >
                       <Link href="">
                         <a>
-                          Women Fashion
+                          Mixed Martial Arts
                           <span className="float-right">
                             <FaAngleDown />
                           </span>
@@ -123,7 +173,32 @@ const MobileNavbar = () => {
                   </Card.Header>
                   <Accordion.Collapse eventKey="2">
                     <Card.Body>
-                      <WomenFashion />
+                      <ul>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Protective Gear <FaAngleRight className="mt-1" />
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              MMA Gloves <FaAngleRight className="mt-1" />
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              MMA Clothing <FaAngleRight className="mt-1" />
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
+                      {/* <WomenFashion /> */}
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
@@ -137,7 +212,7 @@ const MobileNavbar = () => {
                     >
                       <Link href="">
                         <a>
-                          Business Fashion
+                          Fashion Wears
                           <span className="float-right">
                             <FaAngleDown />
                           </span>
@@ -147,7 +222,33 @@ const MobileNavbar = () => {
                   </Card.Header>
                   <Accordion.Collapse eventKey="3">
                     <Card.Body>
-                      <BusinessFashion />
+                      <ul>
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Outdoor Wears
+                              <FaAngleRight className="mt-1" />
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Rain Wears <FaAngleRight className="mt-1" />
+                            </a>
+                          </Link>
+                        </li>
+
+                        <li className=" w-100">
+                          <Link href="">
+                            <a className="d-flex  w-100">
+                              Military Fashion
+                              <FaAngleRight className="mt-1" />
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
                     </Card.Body>
                   </Accordion.Collapse>
                 </Card>
