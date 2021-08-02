@@ -47,3 +47,60 @@
     }
   }
 }
+
+// sportswear
+.sports-wear {
+  .main-heading {
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
+  .sport-waer-heading {
+    hr {
+      border: 2px solid #dd3333;
+      border-radius: 50px;
+      margin-top: 0px;
+      width: 100px;
+    }
+  }
+  .sports-links {
+    hr {
+      border: 2px solid #dd3333;
+      border-radius: 50px;
+      margin-top: 0px;
+    }
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+      a {
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #2f2f2f;
+        &:hover {
+          color: #dd3333;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .work-wears-list {
+    ul {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+      li {
+       
+        margin: 0px;
+        text-align: left;
+        padding: 0px 5px;
+        a {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
