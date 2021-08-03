@@ -93,7 +93,6 @@
       overflow-x: auto;
       width: 100%;
       li {
-       
         margin: 0px;
         text-align: left;
         padding: 0px 5px;
@@ -102,5 +101,27 @@
         }
       }
     }
+  }
+}
+
+.blogs-details-page {
+  .author-info {
+    h2 {
+      color: #000000;
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+  p {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .category a {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
   }
 }

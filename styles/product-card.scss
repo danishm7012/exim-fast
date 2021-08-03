@@ -108,3 +108,21 @@
 .btn-1 {
   background: #dd3333;
 }
+
+// Product Category Page
+
+.product-category {
+  .heading {
+    h2 {
+      color: #000;
+      font-size: 35px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    hr {
+      border: 2px solid #dd3333;
+      border-radius: 50px;
+      width: 100px;
+    }
+  }
+}

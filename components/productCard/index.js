@@ -13,14 +13,15 @@ const ProductCard = ({
   newPrice,
   oldPrice,
   addToCart,
-  detailPage,
+  // detailPage,
+  slug,
 }) => {
   return (
     <div>
       <div className="product-card">
         <div className="category-name">
           <p>
-            <Link href="">
+            <Link href={`product-category/1/`}>
               <a> {category}</a>
             </Link>
           </p>
@@ -47,7 +48,7 @@ const ProductCard = ({
             </span>
           </div>
           <div className="buttons d-flex">
-            <Link href={detailPage}>
+            <Link href={`/product-detail/[id]`} as={`/product-detail/${slug}`}>
               <a>
                 <button className="btn btn-1">
                   <FaLongArrowAltRight />

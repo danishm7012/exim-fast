@@ -42,11 +42,12 @@ const SportsWear = () => {
               return (
                 <Col md={2} sm={6} xs={12} className="mt-4">
                   <ProductCard
+                    slug={Data.Slug}
                     category={Data.category}
                     ProductName={Data.ProductName}
                     newPrice={Data.newPrice}
                     oldPrice={Data.oldPrice}
-                    detailPage="/"
+                    // detailPage="/product-detail/[id]"
                     img={Data.img.type}
                     addToCart
                   />

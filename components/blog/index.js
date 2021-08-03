@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 // import BlogImg from "../../assests//images/blog/blog-1.jpg";
 import Link from "next/link";
-const Blog = ({ BlogImg, title, subTitle }) => {
+const Blog = ({ BlogImg, title, subTitle, id }) => {
   return (
     <div>
       <div className="blog-card">
-        <Link href="">
+        <Link href={`blog-details/[BlogID]`} as={`blog-details/${id}`}>
           <a>
             <Image src={BlogImg} alt="Blog Image" />
           </a>
@@ -14,7 +14,7 @@ const Blog = ({ BlogImg, title, subTitle }) => {
         <div className="text p-3">
           <h2>{title}</h2>
           <p>{subTitle}</p>
-          <Link href="">
+          <Link href={`blog-details/[BlogID]`} as={`blog-details/${id}`}>
             <a>
               <button className="btn btn-1">Read More</button>
             </a>
