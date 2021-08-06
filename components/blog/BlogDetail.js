@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import Image from "next/image";
 import BlogImg from "../../assests/images/blog11.png";
 import Link from "next/link";
-const BlogDetail = () => {
+const BlogDetail = ({ Blog }) => {
   return (
     <div className="my-5">
       <Container>
@@ -18,10 +18,10 @@ const BlogDetail = () => {
         <br />
         <br />
         <div className="blogs-details-page">
-          <Image src={BlogImg} className="w-100" />
+          <Image src={Blog.img.type} className="w-100" />
           <div className="p-3">
             <div className="author-info">
-              <h2>An Exclusive guide for exporters and importers</h2>
+              <h2>{Blog.title}</h2>
               <p>
                 <span className="category mx-2">
                   <Link href="">Import Export Business</Link>
@@ -34,15 +34,7 @@ const BlogDetail = () => {
             </div>
             <div className="all-descriptions">
               <p>
-                Following is the action plan for the new exporters, importers,
-                and online sellers, everyone who want to do or expand into
-                international business. The purpose of this is to help you set
-                up your export/import business in the right way. The guide for
-                exporters/importers includes crucial steps ( in the right order)
-                and the necessary resources & tools you need in each step. For
-                beginners, we suggest executing this from start to end. For
-                advances ones or already business owners, please execute there,
-                where you see, you are lacking now.
+                {Blog.subtitle}
               </p>
               <h2>The navigation menu for exporters/importers guide</h2>
             </div>

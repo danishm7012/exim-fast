@@ -3,14 +3,16 @@ import Link from "next/link";
 import { BiDetail, BiPound } from "react-icons/bi";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import Reviews from "./Reviews";
-const Details = () => {
+const Details = ({ Product }) => {
   return (
     <div>
       <div className="details-product">
         <h4>
-          <Link href="">(MMA) Mixed Martial Arts, MMA Uniform</Link>
+          <Link href="">
+            <a>{Product.category}</a>
+          </Link>
         </h4>
-        <h2>MMA Wear Uniform Good Quality For Adult</h2>
+        <h2> {Product.ProductName} </h2>
         <div className="description">
           <h2 className="description-name">Description</h2>
           <p>
@@ -34,7 +36,7 @@ const Details = () => {
             <h2>
               <span className="new-price">
                 <BiPound />
-                200
+                {Product.newPrice}
               </span>
               <span className="old-price">
                 <BiPound />

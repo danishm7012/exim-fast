@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Container } from "react-bootstrap";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { HiOutlineShoppingBag } from "react-icons/hi";
 
 const MainNavbar = () => {
   return (
@@ -569,7 +570,6 @@ const MainNavbar = () => {
                           <Link href="">Teniss Wrist Assists Braces</Link>
                         </li>
                       </ul>
-                    
                     </div>
                   </li>
 
@@ -601,7 +601,6 @@ const MainNavbar = () => {
                           <Link href="">Table Tennis Table and Gears</Link>
                         </li>
                       </ul>
-                    
                     </div>
                   </li>
 
@@ -636,7 +635,6 @@ const MainNavbar = () => {
                           <Link href="">Volley Ball Shoes and Equipments</Link>
                         </li>
                       </ul>
-                    
                     </div>
                   </li>
 
@@ -671,8 +669,7 @@ const MainNavbar = () => {
                           <Link href="">Wrestling Masks</Link>
                         </li>
                       </ul>
-
-</div>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -732,7 +729,6 @@ const MainNavbar = () => {
                     </Link>
                   </li>
                 </ul>
-              
               </div>
             </li>
             <li className="menu-items">
@@ -922,7 +918,6 @@ const MainNavbar = () => {
                       </ul>
                     </div>
                   </li>
-                
                 </ul>
               </div>
             </li>
@@ -988,6 +983,11 @@ const MainNavbar = () => {
                   </li>
                 </ul>
               </div>
+            </li>
+            <li>
+              <a className=" btn-1 shopping-cart header__summary snipcart-checkout snipcart-summary">
+                <HiOutlineShoppingBag />
+              </a>
             </li>
           </ul>
         </Container>

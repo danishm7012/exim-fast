@@ -17,6 +17,7 @@ const BlogSection = () => {
                   BlogImg={Data.img.type}
                   title={Data.title}
                   subTitle={Data.subtitle}
+                  slug={Data.slug}
                 />
               </Col>
             );

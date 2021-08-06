@@ -49,7 +49,8 @@ const SportsWear = () => {
                     oldPrice={Data.oldPrice}
                     // detailPage="/product-detail/[id]"
                     img={Data.img.type}
-                    addToCart
+                    ID={Data.id}
+                    Slug={Data.slug}
                   />
                 </Col>
               );

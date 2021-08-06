@@ -12,9 +12,8 @@ const ProductCard = ({
   img,
   newPrice,
   oldPrice,
-  addToCart,
-  // detailPage,
-  slug,
+  Slug,
+  ID,
 }) => {
   return (
     <div>
@@ -48,7 +47,7 @@ const ProductCard = ({
             </span>
           </div>
           <div className="buttons d-flex">
-            <Link href={`/product-detail/[id]`} as={`/product-detail/${slug}`}>
+            <Link href={`/product-detail/${Slug}`}>
               <a>
                 <button className="btn btn-1">
                   <FaLongArrowAltRight />
@@ -56,8 +55,16 @@ const ProductCard = ({
               </a>
             </Link>
 
-            <button onClick={addToCart} className="btn btn-1">
-              <HiOutlineShoppingCart />
+            <button
+              class="snipcart-add-item add-to-cart btn btn-1"
+              data-item-id={ID}
+              data-item-price={newPrice}
+              data-item-url="/paintings/starry-night"
+              // data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+              data-item-image={img}
+              data-item-name={ProductName}
+            >
+              <HiOutlineShoppingCart className="icons" />
             </button>
           </div>
         </div>

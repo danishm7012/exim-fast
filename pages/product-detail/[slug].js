@@ -9,29 +9,29 @@ import ProductData from "../../data/ProductData";
 
 const ProductDetail = () => {
   const router = useRouter();
-  const { id } = router.query;
+  const { slug } = router.query;
   const [Product, setProduct] = useState({});
   useEffect(() => {
-    setProduct(ProductData.find((b) => b.slug === id));
-  }, [id]);
+    setProduct(ProductData.find((b) => b.slug));
+  }, [slug]);
   console.log("All Products", Product);
   return (
     <div>
       <Container className="my-5">
         <div className="product-details">
-          <h2>Product Details</h2>
+          <h2>Product Details </h2>
           <hr />
         </div>
         <div className="peoduct-all-details"></div>
         <Row>
           <Col md={6} xs={12}>
             <div className="product-img text-center">
-              <Image src={ProductImg} />
+              <img src={Product.img} width="100%" />
             </div>
           </Col>
           <Col md={6} xs={12}>
             <div className="text-detail">
-              <Details />
+              <Details Product={Product} />
             </div>
           </Col>
         </Row>

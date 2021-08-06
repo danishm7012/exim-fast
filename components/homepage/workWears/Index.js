@@ -81,9 +81,9 @@ const WorkWears = () => {
                     ProductName={Data.ProductName}
                     newPrice={Data.newPrice}
                     oldPrice={Data.oldPrice}
-                    detailPage="/"
                     img={Data.img.type}
-                    addToCart
+                    ID={Data.id}
+                    Slug={Data.slug}
                   />
                 </Col>
               );
