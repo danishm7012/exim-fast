@@ -7,7 +7,7 @@ const checkout = () => {
   return (
     <div>
       <Meta title="Checkout" keywords="EximFast" />
-      <CheckoutPage />
+      {/* <CheckoutPage /> */}
     </div>
   );
 };

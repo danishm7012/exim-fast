@@ -12,7 +12,7 @@ const BlogSection = () => {
         <Row>
           {BlogData.map((Data) => {
             return (
-              <Col md={4}>
+              <Col md={4} xs={12} key={Data.id}>
                 <Blog
                   BlogImg={Data.img.type}
                   title={Data.title}

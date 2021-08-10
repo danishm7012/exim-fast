@@ -51,7 +51,7 @@ const FooterForm = () => {
               className="form-control mb-2"
               name="name"
               onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
+              // onBlur={formik.handleBlur}
               value={formik.values.name}
             />
             {formik.touched.name && formik.errors.name ? (
@@ -65,7 +65,7 @@ const FooterForm = () => {
               className="form-control mb-2"
               name="number"
               onChange={formik.handleChange}
-              onBlur={formik.handleBlur}
+              // onBlur={formik.handleBlur}
               value={formik.values.number}
             />
             {formik.touched.number && formik.errors.number ? (
@@ -78,7 +78,7 @@ const FooterForm = () => {
             className="form-control mb-2"
             name="email"
             onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
+            // onBlur={formik.handleBlur}
             value={formik.values.email}
           />
           {formik.touched.email && formik.errors.email ? (
@@ -91,7 +91,7 @@ const FooterForm = () => {
             className="form-control mb-2"
             name="message"
             onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
+            // onBlur={formik.handleBlur}
             value={formik.values.message}
           ></textarea>
           {formik.touched.message && formik.errors.message ? (

@@ -44,8 +44,15 @@ const Details = ({ Product }) => {
               </span>
             </h2>
           </div>
-
-          <button className="btn btn-1">
+          <button
+            className="snipcart-add-item  btn btn-1"
+            data-item-id={Product.id}
+            data-item-price={Product.newPrice}
+            data-item-url="/paintings/starry-night"
+            // data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+            data-item-image={Product.img}
+            data-item-name={Product.ProductName}
+          >
             Add To Cart
             <HiOutlineShoppingCart className="ml-2 icon" />
           </button>

@@ -56,7 +56,7 @@ const ProductCard = ({
             </Link>
 
             <button
-              class="snipcart-add-item add-to-cart btn btn-1"
+              className="snipcart-add-item add-to-cart btn btn-1"
               data-item-id={ID}
               data-item-price={newPrice}
               data-item-url="/paintings/starry-night"

@@ -9,7 +9,7 @@ const ProductCategoryPage = () => {
         <Row>
           {ProductData.map((Data) => {
             return (
-              <Col md={3} sm={6} xs={12} className="mt-4">
+              <Col md={3} sm={6} xs={12} className="mt-4" key={Data.id}>
                 <ProductCard
                   slug={Data.Slug}
                   category={Data.category}

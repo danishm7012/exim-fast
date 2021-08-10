@@ -14,7 +14,7 @@ const ProductDetail = () => {
   useEffect(() => {
     setProduct(ProductData.find((b) => b.slug));
   }, [slug]);
-  console.log("All Products", Product);
+  // console.log("All Products", Product);
   return (
     <div>
       <Container className="my-5">
@@ -26,7 +26,7 @@ const ProductDetail = () => {
         <Row>
           <Col md={6} xs={12}>
             <div className="product-img text-center">
-              <img src={Product.img} width="100%" />
+              {/* <Image src={Product.img.type} /> */}
             </div>
           </Col>
           <Col md={6} xs={12}>

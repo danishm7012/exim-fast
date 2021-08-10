@@ -28,7 +28,7 @@ class Comment extends React.Component {
     return (
       <div className="commentContainer">
         <div className="commentText ">
-          <i class="fas fa-comments pr-2"></i>
+          <i className="fas fa-comments pr-2"></i>
           {this.props.children}
         </div>
         {/* <button onClick={this.edit} className="btn btn-comment">

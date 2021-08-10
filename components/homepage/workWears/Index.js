@@ -73,9 +73,9 @@ const WorkWears = () => {
             </Col>
           </Row>
           <Row>
-            {ProductData.map((Data) => {
+            {ProductData.slice(0, 12).map((Data) => {
               return (
-                <Col md={2} sm={6} xs={12} className="mt-4">
+                <Col md={2} sm={6} xs={12} className="mt-4" key={Data.id}>
                   <ProductCard
                     category={Data.category}
                     ProductName={Data.ProductName}
